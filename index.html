@@ -3,8 +3,18 @@
     <head>
         <title>ryantimken.com</title>
         <meta name="robots" content="noindex" />
+        <script>
+            function chcolor() {
+                if ( document.body.style.backgroundColor == 'red' ) { 
+                    document.body.style.backgroundColor = "blue"
+                } 
+                else { 
+                    document.body.style.backgroundColor = "red"
+                }
+            };
+        </script>
     </head>
-    <body>
+    <body style="height: 500px;" onclick="chcolor()">
         <h1>ryantimken.com</h1>
     </body>
 </html>
